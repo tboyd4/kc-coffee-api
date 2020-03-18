@@ -1,0 +1,34 @@
+{
+  "name": "kc-coffee-api",
+  "version": "1.0.0",
+  "description": "Backend API for KC Coffee Bro",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tboyd4/kc-coffee-api.git"
+  },
+  "keywords": [
+    "coffee",
+    "api",
+    "test",
+    "backend",
+    "tutorial"
+  ],
+  "author": "tboyd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tboyd4/kc-coffee-api/issues"
+  },
+  "homepage": "https://github.com/tboyd4/kc-coffee-api#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.5"
+  }
+}
